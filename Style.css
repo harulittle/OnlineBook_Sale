@@ -1,0 +1,175 @@
+/* CSS Document */
+
+h1,h2,h3
+{
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #690;
+}
+h1
+{
+	letter-spacing: -1px;
+	font-size: 32px;
+}
+h2
+{
+	font-size: 23px;
+}
+p,ul,ol
+{
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 26px;
+}
+a:link
+{
+	color: #7AD000;
+}
+a:hover,a:active
+{
+	text-decoration: none;
+	color: #7AD000;
+}
+img:left
+{
+	float: left;
+	margin: 7px 0 0 15px;
+}
+img:right
+{
+	float: right;
+	margin: 7px 0 0 15px;
+}
+#wrapper
+{
+	background: gray	url(images/img03.jpg);
+}
+#header
+{
+	width:900px;
+	height:80px;
+	margin:0 auto 20px auto;
+	padding-top:10px;
+}
+#logo
+{
+	float:left;
+	height:120px;
+	margin-left:30px;
+}
+#logo h1
+{
+	font-size:38px;
+	color:#3399CC;
+}
+#logo h1 sup
+{
+	vertical-align:text-top;
+	font-size:24px;
+}
+#logo h1 a 
+{
+	color:#FFFFFF;
+}
+#logo h2
+{
+	text-transform:uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+}
+#logo a
+{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+#menu
+{
+	float:right;
+}
+#menu ul
+{
+	margin:0;
+	padding:28px 0 0 0;
+	list-style:none;
+}
+#menu li
+{
+	display:inline;
+}
+#menu a 
+{
+	display: block;
+	float:left;
+	margin-left:5px;
+	background:blue;
+	padding:7px 10px;
+	text-decoration:none;
+	font-size:15px;
+	color:#FFFFFF;
+}
+#menu a:hover
+{
+	text-decoration:underline;
+}
+#menu .active a
+{
+}
+#page
+{
+	width:900px;
+	margin:0 auto;
+	padding:20px 20px;
+}
+#content
+{
+	width:800px;
+	padding: 20px 20px;
+	margin:0 auto;
+}
+#content table
+{
+	margin:auto;
+	margin-top:100px;
+	border:1px solid #060;
+	margin-bottom:100px;
+}
+#content table tr
+{
+	height:30px;
+}
+.headerbg
+{
+	background-image:url(images/_MG03.JPG);
+	background-repeat:repeat-x;
+	text-align:center;
+	color:#FFF;
+}
+.box
+{
+	width:80px;
+	height:28px;
+	border-color:#FFF;
+	background-color:#060;
+	color:#FFF;
+	float:right;
+	margin-left:20px;
+}
+.box:hover
+{
+	cursor:pointer;
+	color:#39F;
+}
+.img:hover
+{
+	cursor:pointer;
+}
+#footer {
+	background: url(images/footer.jpg) repeat-x;
+	padding: 4px;
+	color: #fff;
+	margin-top: 15px;
+	clear: both;
+	text-align: center;
+}
